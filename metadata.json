@@ -1,0 +1,6 @@
+{
+  "name": "Honey Valley",
+  "description": "Premium artisan beekeeper company webshop selling local, 100% natural honey.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
