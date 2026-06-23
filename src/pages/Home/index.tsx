@@ -7,8 +7,7 @@ import SEO from '../../components/layout/SEO';
 import { ArrowRight, ShieldCheck, Heart, Award, Sparkles } from 'lucide-react';
 import { motion } from 'motion/react';
 import Bee from '../../components/ui/BeeIcon';
-
-const beekeeperImg = "/src/assets/images/beekeeper_illustration_1781721031755.jpg";
+import beekeeperImg from '../../assets/images/beekeeper_illustration_1781721031755.jpg';
 
 const BEE_QUOTES = [
   { text: "Bee kind, bee brave, bee positive!", source: "Honey Valley Creed" },
