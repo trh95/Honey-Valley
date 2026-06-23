@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-neutral-950: #121212;
+  --color-neutral-900: #1a1a1a;
+  --color-neutral-800: #262626;
+  --color-neutral-700: #404040;
+  --color-neutral-600: #525252;
+  --color-neutral-500: #737373;
+  --color-neutral-400: #a3a3a3;
+  --color-neutral-300: #d4d4d4;
+  --color-neutral-200: #e5e5e5;
+  --color-neutral-100: #f5f5f5;
+  
+  --color-amber-50: #fffef0;
+  --color-amber-100: #fef8c7;
+  --color-amber-200: #fdeca8;
+  --color-amber-300: #fcdc6d;
+  --color-amber-400: #ffd15c;
+  --color-amber-500: #FFB800;
+  --color-amber-600: #E6A600;
+  --color-amber-700: #CC9400;
+  --color-amber-800: #996f00;
+  --color-amber-900: #664a00;
+  --color-amber-950: #332500;
+}
+
+body {
+  background-color: #121212 !important;
+  color: #F5F5F0 !important;
+}
+
+.text-glow {
+  text-shadow: 0 0 40px rgba(245, 158, 11, 0.4);
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #26262a #0a0a0c;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #26262a;
+  border: 2px solid #0a0a0c;
+  border-radius: 9999px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFB800;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 9999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #FFB800;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
