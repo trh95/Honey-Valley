@@ -1,4 +1,10 @@
 import { Product, Testimonial } from '../types';
+import acaciaImg from '../assets/images/acacia_honey_jar_1781800227523.jpg';
+import lindenImg from '../assets/images/linden_honey_jar_hex_1781801283205.jpg';
+import canolaImg from '../assets/images/canola_honey_jar_hex_1781801540716.jpg';
+import wildflowerImg from '../assets/images/wildflower_honey_jar_hex_1781801828176.jpg';
+import forestImg from '../assets/images/forest_honey_jar_hex_1781802169358.jpg';
+import sunflowerImg from '../assets/images/sunflower_honey_jar_1781800295939.jpg';
 
 export const products: Product[] = [
   {
@@ -7,7 +13,7 @@ export const products: Product[] = [
     description: 'Light, clear, and delicately sweet. Sourced from organic acacia tree blossoms.',
     longDescription: 'Honey Valley\'s organic Acacia Honey is highly prized for its pure crystal-clear appearance and light, delicate floral taste. It remains in its liquid state for an extended period because of its high fructose levels, making it the perfect tabletop sweetener for tea, pancakes, and fine desserts without altering their natural flavors.',
     price: 18.99,
-    image: '/src/assets/images/acacia_honey_jar_1781800227523.jpg',
+    image: acaciaImg,
     category: 'Monofloral',
     stock: 12,
     weight: '500g',
@@ -22,7 +28,7 @@ export const products: Product[] = [
     description: 'Fresh and fragrant woody-mint aroma with a medium golden hue.',
     longDescription: 'Our exquisite Linden Honey is harvested from ancient Linden forests during the height of mid-summer. It possesses a distinctively sweet, warm herbal taste complemented by a fine touch of fresh woody-mint. Known traditionally for its soothing properties, this honey is a soothing companion for cold winter nights.',
     price: 16.49,
-    image: '/src/assets/images/linden_honey_jar_hex_1781801283205.jpg',
+    image: lindenImg,
     category: 'Forest-Born',
     stock: 24,
     weight: '500g',
@@ -37,7 +43,7 @@ export const products: Product[] = [
     description: 'Creamy white texture with a mild sweetness and fresh, buttery floral fragrance.',
     longDescription: 'Our whipped Canola Honey is crystallised under controlled temperatures to yield a luxurious spreadable, butter-like consistency. Sourced from expansive yellow canola fields, it has an incredibly mild, smooth sweetness that melts on your tongue. Perfect on hot toast or dynamic vinaigrettes.',
     price: 14.99,
-    image: '/src/assets/images/canola_honey_jar_hex_1781801540716.jpg',
+    image: canolaImg,
     category: 'Creamed',
     stock: 18,
     weight: '500g',
@@ -52,7 +58,7 @@ export const products: Product[] = [
     description: 'Rich, golden, multi-floral blend reflecting the true diversity of our fields.',
     longDescription: 'Harvested from fields hosting a vibrant medley of wild blossoms, our Wildflower Honey is a polyfloral masterpiece. Its flavor profile evolves year-on-year, echoing the specific flowers visited by our bees. It has a robust, well-rounded sweetness with vibrant fruity and deep woody undertones.',
     price: 15.99,
-    image: '/src/assets/images/wildflower_honey_jar_hex_1781801828176.jpg',
+    image: wildflowerImg,
     category: 'Polyfloral',
     stock: 45,
     weight: '500g',
@@ -67,7 +73,7 @@ export const products: Product[] = [
     description: 'Deep, dark, mineral-rich nectar with complex malted bark characters.',
     longDescription: 'Forest Honey, also known as honeydew honey, is collected by our bees from wild coniferous and deciduous trees in deep mountainous forests. This honey is dark, rich, and intensely aromatic, containing higher mineral concentrations and antioxidants. It features complex caramel taste profiles without excessive sweetness.',
     price: 19.99,
-    image: '/src/assets/images/forest_honey_jar_hex_1781802169358.jpg',
+    image: forestImg,
     category: 'Forest-Born',
     stock: 8,
     weight: '500g',
@@ -82,7 +88,7 @@ export const products: Product[] = [
     description: 'Vibrant, sunny golden nectar that naturally crystallizes into a pleasant texture.',
     longDescription: 'Brimming with the energy of late summer sunflowers, this honey is instantly recognizable by its beautiful glowing yellow color. It has a fresh, fruity, sweet fragrance and naturally crystallizes quickly into fine, crunchy honey grains that offer an exquisite texture on waffles, yogurt, and sourdough.',
     price: 13.99,
-    image: '/src/assets/images/sunflower_honey_jar_1781800295939.jpg',
+    image: sunflowerImg,
     category: 'Monofloral',
     stock: 15,
     weight: '500g',
